@@ -10,7 +10,13 @@
 <body>
     <div>
         <div>
+            <span>navbar</span>
+        </div>
+        <div>
             {{ $slot }}
+        </div>
+        <div>
+            <span>footer</span>
         </div>
     </div>
 </body>
